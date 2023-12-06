@@ -616,9 +616,13 @@ gap: 24px;
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    fill: #FFFFFF;
     background-color: #404BBF;
     border: none;
+}
+
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+    fill: #FFFFFF;
 }
 
 .review-form-description {
@@ -747,12 +751,11 @@ gap: 24px;
     fill: #F4F4FD;
 }
 
-.review-form-checkbox:focus 
+/* .review-form-checkbox:focus 
 + .review-form-checkbox-label 
 > .review-form-own-checkbox {
     outline: 1px solid #404BBF;
-
-}
+} */
 
 .review-form-own-checkbox-icon {
     fill: #F4F4FD;
